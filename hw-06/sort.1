@@ -1,0 +1,31 @@
+.\" Sort man page for CSCI 241
+.\" Nuriel Leve & Esme Rubinstein - Fall 2020
+
+.TH sort 1 "11 November 2020" "CSCI 241" "Oberlin College"
+
+.SH NAME
+.B sort
+\- reads in lines of texts and sorts them using specified criterion
+
+.SH SYNOPSIS
+.B sort
+[OPTION] < FILE
+
+.SH DESCRIPTION
+sort is a program that takes in text file, reads in each line, and sorts them in a specific pattern 
+
+.SH OPTIONS
+.IP "-f"
+Folds the lowercase letters into uppercase letters; sorts case insensitive comparisons
+.IP "-n"
+Sorts lines based on a leading number; ignores leading whitespace
+.IP "-r"
+Reverses the sort that was included with the flag; can reverse numeric, folded, or normal sorts
+.IP "-h,-?"
+Sort will read in lines from standard input and sort them in accordance to a specific criteria. Enter an flag in the command line to see a particular sorting of lines.   
+
+.SH AUTHOR
+Nuriel Leve & Esme Rubinstein (Fall 2020)
+
+.SH BUGS
+None!
